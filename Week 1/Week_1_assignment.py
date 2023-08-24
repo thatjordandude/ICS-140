@@ -1,7 +1,7 @@
 import turtle
 t=turtle.Turtle()
 t.hideturtle()
-t.speed(20)
+t.speed(0)
 # robot head
 t.penup()
 t.setpos(0,-300)
