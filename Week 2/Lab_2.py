@@ -1,0 +1,23 @@
+import turtle
+
+
+w = int(input('Enter Width: '))
+wcolor=str(input('Enter color for width: '))
+l = int(input('Enter Length: '))
+lcolor=str(input('Enter color for length: '))
+t=turtle.Turtle()
+t.color(wcolor)
+t.forward(w/2)
+t.right(90)
+t.color(lcolor)
+t.forward(l)
+t.right(90)
+t.color(wcolor)
+t.forward(w)
+t.color(lcolor)
+t.right(90)
+t.forward(l)
+t.right(90)
+t.color(wcolor)
+t.forward(w/2)
+turtle.done()
