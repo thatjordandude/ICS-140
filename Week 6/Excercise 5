@@ -1,0 +1,13 @@
+books = int(input("Enter the number of books purchased this month: "))
+points = 0
+
+if books == 2:
+    points = 5
+elif books == 4:
+    points = 15
+elif books == 6:
+    points = 30
+elif books >= 8:
+    points = 60
+
+print("You have earned", points, "points!")
