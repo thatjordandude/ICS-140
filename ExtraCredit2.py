@@ -61,12 +61,14 @@ f.clear()
 
 # Winner
 
-random = random.randint(1,25)
+
+
 winner = None
-while winner is None:
+while winner is None: 
     for turtles in turtle_list:
-        turtles.forward(random)
-        if turtles.ycor() > 250:
+        random_value = random.randint(2,10)
+        turtles.forward(random_value)
+        if turtles.ycor() >= 240:
             winner = turtles
             break
 winner_color = winner.color()[0]
